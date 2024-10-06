@@ -78,7 +78,7 @@
     "outbounds": [
         {
             "type": "hysteria2",
-            "tag": "proxy",
+            "tag": "hy2",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
             "password": "danny:zxcv5184",
@@ -99,6 +99,12 @@
                 "enabled": true
             }
         },
+        {
+            "default": "hy2",
+            "outbounds": ["hy2", "ss1"],
+            "tag": "proxy",
+            "type": "selector"
+          },
         {
             "type": "direct",
             "tag": "direct"
