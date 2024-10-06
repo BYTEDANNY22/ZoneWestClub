@@ -80,7 +80,7 @@
             "default": "hy2",
             "outbounds": [
                 "hy2",
-                "ss1"
+                "hy3"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -96,18 +96,19 @@
                 "server_name": "zonewestclub.ddns.net",
                 "insecure": false
             }
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "ss1",
+        },        {
+            "type": "hysteria2",
+            "tag": "hy3",
             "server": "zonewestclub.ddns.net",
-            "server_port": 2300,
-            "method": "chacha20-ietf-poly1305",
-            "password": "zxcv5184",
-            "multiplex": {
-                "enabled": true
+            "server_port": 7000,
+            "password": "danny:zxcv5184",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "insecure": false
             }
         },
+
         {
             "type": "direct",
             "tag": "direct"
