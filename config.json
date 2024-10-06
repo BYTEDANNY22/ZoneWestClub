@@ -6,7 +6,8 @@
     },
     "experimental": {
         "cache_file": {
-            "enabled": true
+            "enabled": true,
+            "store_rdrc": true
         },
         "clash_api": {
             "external_controller": "0.0.0.0:9090",
@@ -21,11 +22,13 @@
             {
                 "tag": "dns_proxy",
                 "address": "https://1.1.1.1/dns-query",
+                "strategy": "prefer_ipv4",
                 "detour": "proxy"
             },
             {
                 "tag": "dns_direct",
                 "address": "https://223.5.5.5/dns-query",
+                "strategy": "prefer_ipv4",
                 "detour": "direct"
             }
         ],
