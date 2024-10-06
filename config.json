@@ -101,7 +101,7 @@
             "type": "shadowsocks",
             "tag": "ss1",
             "server": "zonewestclub.ddns.net",
-            "server_port": 8488,
+            "server_port": 2300,
             "method": "chacha20-ietf-poly1305",
             "password": "zxcv5184",
             "multiplex": {
