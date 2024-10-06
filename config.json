@@ -80,7 +80,7 @@
             "type": "hysteria2",
             "tag": "proxy",
             "server": "zonewestclub.ddns.net",
-            "server_port": 443,7000-8000,
+            "server_port": [443,7000-8000],
             "password": "danny:zxcv5184",
             "tls": {
                 "enabled": true,
