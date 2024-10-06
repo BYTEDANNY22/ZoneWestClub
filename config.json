@@ -105,7 +105,9 @@
             "method": "chacha20-ietf-poly1305",
             "password": "zxcv5184",
             "plugin": "v2ray-plugin",
-            "plugin_opts": "server",
+            "plugin-opts": {
+                "mode": "websocket"
+            },
             "multiplex": {
                 "enabled": true
             }
