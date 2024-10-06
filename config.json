@@ -89,6 +89,17 @@
             }
         },
         {
+            "type": "shadowsocks",
+            "tag": "ss1",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zxcv5184",
+            "multiplex": {
+                "enabled": true
+            }
+        },
+        {
             "type": "direct",
             "tag": "direct"
         },
