@@ -105,9 +105,11 @@
             "method": "chacha20-ietf-poly1305",
             "password": "zxcv5184",
             "plugin": "v2ray-plugin",
-                        "plugin-opts": {
-                            "mode": "websocket"
-                        }
+            "plugin-opts": [
+                {
+                    "mode": "websocket"
+                }
+            ]
         },
         {
             "type": "direct",
