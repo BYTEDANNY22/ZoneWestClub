@@ -106,7 +106,10 @@
             "password": "zxcv5184",
             "plugin": "v2ray-plugin",
             "plugin-opts": {
-                "mode": "websocket"
+                "mode": "websocket",
+                "host": "zonewestclub.ddns.net",
+                "path": "/",
+                "tls": false
             }
         },
         {
