@@ -98,18 +98,15 @@
             }
         },
         {
-            "type": "shadowsocks",
-            "tag": "hy2",
+            "type": "hysteria2",
+            "tag": "hy3",
             "server": "zonewestclub.ddns.net",
-            "server_port": 2300,
-            "method": "chacha20-ietf-poly1305",
-            "password": "zxcv5184",
-            "plugin": "v2ray-plugin",
-            "plugin-opts": {
-                "mode": "websocket",
-                "host": "zonewestclub.ddns.net",
-                "path": "/",
-                "tls": false
+            "server_port": 7000,
+            "password": "danny:zxcv5184",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "insecure": false
             }
         },
         {
