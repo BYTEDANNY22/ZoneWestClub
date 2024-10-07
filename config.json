@@ -12,7 +12,7 @@
         "clash_api": {
             "external_controller": "0.0.0.0:9090",
             "external_ui": "ui",
-            "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
             "external_ui_download_detour": "proxy",
             "default_mode": "Bypass China"
         }
@@ -79,15 +79,19 @@
         {
             "default": "hy2",
             "outbounds": [
-                "hy2",
-                "ss1"
+                "西賤專享（內地叫雞專線） v1.4.1",
+                "一號技師（鹹姨）",
+                "二號技師（龍根）",
+                "三號技師（松西）",
+                "四號技師（洗面）",
+                "五號技師（收音）"
             ],
             "tag": "proxy",
             "type": "selector"
         },
         {
             "type": "hysteria2",
-            "tag": "hy2",
+            "tag": "西賤專享（內地叫雞專線） v1.4.1",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
             "password": "danny:zxcv5184",
@@ -98,10 +102,50 @@
             }
         },
         {
-            "tag": "ss1",
             "type": "shadowsocks",
+            "tag": "一號技師（鹹姨）",
             "server": "zonewestclub.ddns.net",
             "server_port": 2300,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zxcv5184",
+            "plugin": "v2ray-plugin",
+            "plugin_opts": "mode=websocket;mux=1;"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "二號技師（龍根）",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 2301,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zxcv5184",
+            "plugin": "v2ray-plugin",
+            "plugin_opts": "mode=websocket;mux=1;"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "三號技師（松西）",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 2302,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zxcv5184",
+            "plugin": "v2ray-plugin",
+            "plugin_opts": "mode=websocket;mux=1;"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "四號技師（洗面）",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 2303,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zxcv5184",
+            "plugin": "v2ray-plugin",
+            "plugin_opts": "mode=websocket;mux=1;"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "五號技師（收音）",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 2304,
             "method": "chacha20-ietf-poly1305",
             "password": "zxcv5184",
             "plugin": "v2ray-plugin",
