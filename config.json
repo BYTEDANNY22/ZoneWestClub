@@ -96,19 +96,19 @@
                 "server_name": "zonewestclub.ddns.net",
                 "insecure": false
             }
-        },        {
-            "type": "hysteria2",
-            "tag": "hy3",
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "hy2",
             "server": "zonewestclub.ddns.net",
-            "server_port": 7000,
-            "password": "danny:zxcv5184",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "insecure": false
+            "server_port": 2300,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zxcv5184",
+            "plugin": "v2ray-plugin",
+            "plugin_opts": {
+                "mode": "websocket"
             }
         },
-
         {
             "type": "direct",
             "tag": "direct"
