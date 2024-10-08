@@ -103,18 +103,6 @@
             ]
         },
         {
-            "type": "hysteria2",
-            "tag": "西賤專享（內地叫雞專線） v1.4.1",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 443,
-            "password": "danny:zxcv5184",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "insecure": false
-            }
-        },
-        {
             "type": "shadowsocks",
             "tag": "一號技師（鹹姨）",
             "server": "zonewestclub.ddns.net",
@@ -135,30 +123,34 @@
             "plugin_opts": "mode=websocket;"
         },
         {
-            "type": "shadowsocks",
+            "type": "hysteria2",
             "tag": "三號技師（松西）",
             "server": "zonewestclub.ddns.net",
-            "server_port": 2302,
-            "method": "chacha20-ietf-poly1305",
-            "password": "zxcv5184",
-            "plugin": "v2ray-plugin",
-            "plugin_opts": "mode=websocket;"
+            "server_port": 443,
+            "password": "danny:zxcv5184",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "insecure": false
+            }
         },
         {
-            "type": "shadowsocks",
+            "type": "hysteria2",
             "tag": "四號技師（洗面）",
             "server": "zonewestclub.ddns.net",
-            "server_port": 2303,
-            "method": "chacha20-ietf-poly1305",
-            "password": "zxcv5184",
-            "plugin": "v2ray-plugin",
-            "plugin_opts": "mode=websocket;"
+            "server_port": 8443,
+            "password": "danny:zxcv5184",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "insecure": false
+            }
         },
         {
             "type": "shadowsocks",
             "tag": "五號技師（收音）",
             "server": "zonewestclub.ddns.net",
-            "server_port": 2304,
+            "server_port": 8488,
             "method": "chacha20-ietf-poly1305",
             "password": "zxcv5184",
             "plugin": "v2ray-plugin",
