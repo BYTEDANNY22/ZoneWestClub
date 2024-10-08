@@ -13,7 +13,7 @@
             "external_controller": "127.0.0.1:9090",
             "external_ui": "ui",
             "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-            "external_ui_download_detour": "自動選擇技師",
+            "external_ui_download_detour": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "default_mode": "Bypass China"
         }
     },
@@ -22,7 +22,7 @@
             {
                 "tag": "dns_proxy",
                 "address": "https://1.1.1.1/dns-query",
-                "detour": "自動選擇技師"
+                "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
@@ -86,7 +86,7 @@
                 "四號技師（洗面）💦",
                 "五號技師（收音）🌭"
             ],
-            "tag": "西賤專享（內地叫雞專線） v1.4.1 (2024-10-08) ♋",
+            "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "type": "selector"
         },
         {
@@ -179,11 +179,11 @@
             },
             {
                 "clash_mode": "Global",
-                "outbound": "自動選擇技師"
+                "outbound": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "rule_set": "geosite-geolocation-!cn",
-                "outbound": "自動選擇技師"
+                "outbound": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "rule_set": [
@@ -199,24 +199,24 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
-                "download_detour": "自動選擇技師"
+                "download_detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "geosite-geolocation-cn",
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs",
-                "download_detour": "自動選擇技師"
+                "download_detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "geoip-cn",
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-                "download_detour": "自動選擇技師"
+                "download_detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             }
         ],
-        "final": "自動選擇技師",
+        "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
         "auto_detect_interface": true
     }
 }
