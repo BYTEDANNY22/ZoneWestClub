@@ -106,7 +106,7 @@
             "type": "hysteria2",
             "tag": "西賤專享（內地叫雞專線） v1.4.1",
             "server": "zonewestclub.ddns.net",
-            "server_port": 443,
+            "server_port": [443,7000-8000],
             "password": "danny:zxcv5184",
             "tls": {
                 "enabled": true,
