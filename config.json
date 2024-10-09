@@ -117,7 +117,7 @@
       "type": "shadowtls",
       "tag": "shadowtls-out",
       "server": "填写服务器ip地址",
-      "server_port": 443,
+      "server_port": 2443,
       "tls": {
         "enabled": true,
         "server_name": "www.bing.com"
