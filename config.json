@@ -130,7 +130,7 @@
             "server": "zonewestclub.ddns.net",
             "server_port": 2300,
             "method": "chacha20-ietf-poly1305",
-            "password": "zxcv5184",
+            "password": "WzZOsxiuj8aREY4IEFRb8A==",
             "plugin": "v2ray-plugin",
             "plugin_opts": "mode=websocket;"
         },
@@ -140,7 +140,7 @@
             "server": "zonewestclub.ddns.net",
             "server_port": 2301,
             "method": "chacha20-ietf-poly1305",
-            "password": "zxcv5184",
+            "password": "WzZOsxiuj8aREY4IEFRb8A==",
             "plugin": "v2ray-plugin",
             "plugin_opts": "mode=websocket;"
         },
