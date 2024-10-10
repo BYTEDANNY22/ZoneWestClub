@@ -148,9 +148,11 @@
             "type": "shadowsocks",
             "tag": "五號技師（收音）📻",
             "server": "zonewestclub.ddns.net",
-            "server_port": 8080,
-            "method": "2022-blake3-aes-128-gcm",
-            "password": "bXxtS94bSMiPgJEvUINMqg=="
+            "server_port": 8488,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WzZOsxiuj8aREY4IEFRb8A==",
+            "plugin": "v2ray-plugin",
+            "plugin_opts": "mode=websocket;"
         },
         {
             "type": "direct",
