@@ -22,14 +22,12 @@
             {
                 "tag": "dns_proxy",
                 "address": "https://1.1.1.1/dns-query",
-                "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋",
-                "strategy": "prefer_ipv4"
+                "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
                 "address": "https://223.5.5.5/dns-query",
-                "detour": "direct",
-                "strategy": "prefer_ipv4"
+                "detour": "direct"
             }
         ],
         "rules": [
@@ -66,13 +64,11 @@
             }
         ],
         "final": "dns_proxy",
-        "strategy": "prefer_ipv4"
     },
     "inbounds": [
         {
             "type": "tun",
             "inet4_address": "172.19.0.1/30",
-            "inet6_address": "fdfe:dcba:9876::1/126",
             "auto_route": true,
             "strict_route": false,
             "sniff": true
