@@ -36,6 +36,10 @@
                 "server": "dns_direct"
             },
             {
+                "rule_set": "geosite-geolocation-cn",
+                "server": "dns_direct"
+            },
+            {
                 "clash_mode": "Direct",
                 "server": "dns_direct"
             },
@@ -44,23 +48,8 @@
                 "server": "dns_proxy"
             },
             {
-                "rule_set": "geosite-geolocation-cn",
-                "server": "dns_direct"
-            },
-            {
-                "type": "logical",
-                "mode": "and",
-                "rules": [
-                    {
-                        "rule_set": "geosite-geolocation-!cn",
-                        "invert": true
-                    },
-                    {
-                        "rule_set": "geoip-cn"
-                    }
-                ],
-                "server": "dns_proxy",
-                "client_subnet": "114.114.114.114/24"
+                "rule_set": "geosite-geolocation-!cn",
+                "server": "dns_proxy"
             }
         ],
         "final": "dns_proxy",
@@ -77,6 +66,7 @@
     ],
     "outbounds": [
         {
+            "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "default": "一號技師（鹹姨）🫦",
             "outbounds": [
                 "自動選擇技師",
@@ -86,12 +76,11 @@
                 "四號技師（洗面）💦",
                 "五號技師（收音）📻"
             ],
-            "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "type": "selector"
         },
         {
-            "type": "urltest",
             "tag": "自動選擇技師",
+            "type": "urltest",
             "outbounds": [
                 "一號技師（鹹姨）🫦",
                 "二號技師（龍根）🍆",
@@ -101,8 +90,8 @@
             ]
         },
         {
-            "type": "hysteria2",
             "tag": "一號技師（鹹姨）🫦",
+            "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
             "password": "danny:0FQBgB9JnEU5Zy2dJKZgbQ==",
@@ -113,8 +102,8 @@
             }
         },
         {
-            "type": "hysteria2",
             "tag": "二號技師（龍根）🍆",
+            "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
             "server_port": 8443,
             "password": "friend:YJxOE0fJd/gMN4E0oRTkFQ==",
@@ -125,8 +114,8 @@
             }
         },
         {
-            "type": "shadowsocks",
             "tag": "三號技師（松西）👅",
+            "type": "shadowsocks",
             "server": "zonewestclub.ddns.net",
             "server_port": 2300,
             "method": "chacha20-ietf-poly1305",
@@ -135,8 +124,8 @@
             "plugin_opts": "mode=websocket;"
         },
         {
-            "type": "shadowsocks",
             "tag": "四號技師（洗面）💦",
+            "type": "shadowsocks",
             "server": "zonewestclub.ddns.net",
             "server_port": 2301,
             "method": "chacha20-ietf-poly1305",
@@ -145,8 +134,8 @@
             "plugin_opts": "mode=websocket;"
         },
         {
-            "type": "shadowsocks",
             "tag": "五號技師（收音）📻",
+            "type": "shadowsocks",
             "server": "zonewestclub.ddns.net",
             "server_port": 8488,
             "method": "chacha20-ietf-poly1305",
@@ -155,12 +144,12 @@
             "plugin_opts": "mode=websocket;"
         },
         {
-            "type": "direct",
-            "tag": "直連"
+            "tag": "直連",
+            "type": "direct"
         },
         {
-            "type": "dns",
-            "tag": "dns-out"
+            "tag": "dns-out",
+            "type": "dns"
         }
     ],
     "route": {
