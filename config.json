@@ -23,12 +23,14 @@
                 "tag": "dns_proxy",
                 "address": "https://1.1.1.1/dns-query",
                 "address_strategy": "ipv4_only",
+                "strategy": "prefer_ipv4",
                 "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
                 "address": "https://223.5.5.5/dns-query",
                 "address_strategy": "ipv4_only",
+                "strategy": "prefer_ipv4",
                 "detour": "直連"
             }
         ],
