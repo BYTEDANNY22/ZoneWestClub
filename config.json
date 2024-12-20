@@ -150,10 +150,6 @@
         {
             "tag": "直連",
             "type": "direct"
-        },
-        {
-            "tag": "dns-out",
-            "type": "dns"
         }
     ],
     "route": {
@@ -162,7 +158,7 @@
         "rules": [
             {
                 "protocol": "dns",
-                "outbound": "dns-out"
+                "action": "hijack-dns"
             },
             {
                 "ip_is_private": true,
