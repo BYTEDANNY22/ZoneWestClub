@@ -67,7 +67,6 @@
             "auto_route": true,
             "strict_route": false,
             "stack": "system",
-            "sniff": true,
             "sniff_override_destination": false
         }
     ],
@@ -153,10 +152,6 @@
         {
             "tag": "直連",
             "type": "direct"
-        },
-        {
-            "tag": "dns-out",
-            "type": "dns"
         }
     ],
     "route": {
@@ -164,8 +159,11 @@
         "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
         "rules": [
             {
+                "action": "sniff"
+            },
+            {
                 "protocol": "dns",
-                "outbound": "dns-out"
+                "action": "hijack-dns"
             },
             {
                 "ip_is_private": true,
