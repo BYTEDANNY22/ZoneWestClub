@@ -63,8 +63,7 @@
             "type": "tun",
             "address": "172.19.0.1/30",
             "auto_route": true,
-            "strict_route": false,
-            "sniff_override_destination": false
+            "strict_route": false
         }
     ],
     "outbounds": [
