@@ -116,7 +116,7 @@
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
-            "uuid": "31527220-30ba-4785-9e53-d9830e4f2e5d",
+            "uuid": "e9748611-22cf-4425-b8f8-081449c9f304",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
