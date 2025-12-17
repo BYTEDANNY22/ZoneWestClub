@@ -117,6 +117,7 @@
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
             "uuid": "31527220-30ba-4785-9e53-d9830e4f2e5d",
+            "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
                 "server_name": "www.bing.com",    
