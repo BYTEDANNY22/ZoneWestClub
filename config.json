@@ -12,7 +12,7 @@
             "external_controller": "127.0.0.1:9090",
             "external_ui": "ui",
             "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-            "external_ui_download_detour": "自動選擇技師",
+            "external_ui_download_detour": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "default_mode": "Bypass China"
         }
     },
@@ -135,7 +135,6 @@
         {
             "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "type": "selector",
-            "default": "自動選擇技師",
             "outbounds": [
                 "一號技師（鹹姨）🫦",
                 "二號技師（龍根）🍆",
