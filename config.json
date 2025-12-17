@@ -113,13 +113,23 @@
         },
         {
             "tag": "五號技師（收音）📻",
-            "type": "shadowsocks",
+            "type": "vless",
             "server": "zonewestclub.ddns.net",
-            "server_port": 8488,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WzZOsxiuj8aREY4IEFRb8A==",
-            "plugin": "v2ray-plugin",
-            "plugin_opts": "mode=websocket;"
+            "server_port": 443,
+            "uuid": "31527220-30ba-4785-9e53-d9830e4f2e5d",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",    
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+            "reality": {
+              "enabled": true,
+              "public_key": "4VWIBxQLvuoEd6-BX5EUd05ZxO-9l_hpod72ZRdaHSg",
+              "short_id": "0123456789abcdef"
+            }
+        }
         },   
         {
             "tag": "自動選擇技師",
