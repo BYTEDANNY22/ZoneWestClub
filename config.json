@@ -116,7 +116,7 @@
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
-            "uuid": "f94ba5eb-b354-4d74-878f-dc657776ab28",
+            "uuid": "3aa1abb8-9655-473e-8eba-077a49b1893a",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
@@ -127,7 +127,7 @@
                 },
             "reality": {
               "enabled": true,
-              "public_key": "85EFXvRKn9AKpLlSmQB2C3lQpcLZg8AFBPhKtKyk0n4",
+              "public_key": "EPGDnGKERf7d85Psk3lefdke0spC-XdFNtV5RPyt4Qc",
               "short_id": "0123456789abcdef"
             }
         }
