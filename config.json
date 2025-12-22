@@ -70,7 +70,7 @@
         {
           "type": "vless",
           "tag": "proxy",
-          "server": "YOUR-SERVER-IP",
+          "server": "zonewestclub.ddns.net",
           "server_port": 443,
           "uuid": "e2c93bba-3074-43e6-b149-26247c3a953a",
           "flow": "xtls-rprx-vision",
