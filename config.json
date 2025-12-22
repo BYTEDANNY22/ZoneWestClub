@@ -66,7 +66,28 @@
             "strict_route": false
         }
     ],
-    "outbounds": [ 
+    "outbounds": [
+        {
+          "type": "vless",
+          "tag": "proxy",
+          "server": "YOUR-SERVER-IP",
+          "server_port": 443,
+          "uuid": "e2c93bba-3074-43e6-b149-26247c3a953a",
+          "flow": "xtls-rprx-vision",
+          "tls": {
+            "enabled": true,
+            "server_name": "statici.icloud.com",
+            "utls": {
+              "enabled": true,
+              "fingerprint": "chrome"
+            },
+            "reality": {
+              "enabled": true,
+              "public_key": "Qv5YO0Pmfu2TSGe9Zfkx8tKMFsGMLMUCmtrSyfUGVxA",
+              "short_id": "1db4289ffc8e0abd"
+            }
+          }
+        },
         {
             "tag": "一號技師（鹹姨）🫦",
             "type": "hysteria2",
