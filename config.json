@@ -68,27 +68,6 @@
     ],
     "outbounds": [
         {
-          "type": "vless",
-          "tag": "proxy",
-          "server": "zonewestclub.ddns.net",
-          "server_port": 443,
-          "uuid": "e2c93bba-3074-43e6-b149-26247c3a953a",
-          "flow": "xtls-rprx-vision",
-          "tls": {
-            "enabled": true,
-            "server_name": "statici.icloud.com",
-            "utls": {
-              "enabled": true,
-              "fingerprint": "chrome"
-            },
-            "reality": {
-              "enabled": true,
-              "public_key": "Qv5YO0Pmfu2TSGe9Zfkx8tKMFsGMLMUCmtrSyfUGVxA",
-              "short_id": "1db4289ffc8e0abd"
-            }
-          }
-        },
-        {
             "tag": "一號技師（鹹姨）🫦",
             "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
@@ -137,22 +116,22 @@
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
-            "uuid": "3aa1abb8-9655-473e-8eba-077a49b1893a",
+            "uuid": "e2c93bba-3074-43e6-b149-26247c3a953a",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",    
+                "server_name": "statici.icloud.com",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 },
-            "reality": {
-              "enabled": true,
-              "public_key": "EPGDnGKERf7d85Psk3lefdke0spC-XdFNtV5RPyt4Qc",
-              "short_id": "0123456789abcdef"
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Qv5YO0Pmfu2TSGe9Zfkx8tKMFsGMLMUCmtrSyfUGVxA",
+                    "short_id": "1db4289ffc8e0abd"
+                }
             }
-        }
-        },   
+        },
         {
             "tag": "自動選擇技師",
             "type": "urltest",
@@ -168,7 +147,7 @@
             "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "type": "selector",
             "outbounds": [
-                "五號技師（收音）📻",  
+                "五號技師（收音）📻",
                 "一號技師（鹹姨）🫦",
                 "二號技師（龍根）🍆",
                 "三號技師（松西）👅",
