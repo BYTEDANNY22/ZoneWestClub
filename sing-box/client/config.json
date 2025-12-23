@@ -72,6 +72,9 @@
             "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
+            "server_ports": [
+                "5000:6000"
+            ],
             "password": "b6ZyvbUKdZhio6pk9GxozQ==",
             "tls": {
                 "enabled": true,
