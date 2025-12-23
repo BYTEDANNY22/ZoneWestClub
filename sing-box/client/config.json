@@ -78,8 +78,7 @@
             "password": "b6ZyvbUKdZhio6pk9GxozQ==",
             "tls": {
                 "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "insecure": false
+                "server_name": "zonewestclub.ddns.net"
             }
         },
         {
@@ -102,17 +101,6 @@
                     "short_id": "1db4289ffc8e0abd"
                 }
             }
-        },
-        {
-          "type": "hysteria2",
-          "tag": "三號技師（松西）👅",
-          "server": "zonewestclub.ddns.net",
-          "server_port": 7443,
-          "password": "b6ZyvbUKdZhio6pk9GxozQ==",
-          "tls": {
-            "enabled": true,
-            "server_name": "zonewestclub.ddns.net"
-          }
         },
         {
             "tag": "自動選擇技師",
