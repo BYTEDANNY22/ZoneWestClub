@@ -72,7 +72,7 @@
             "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
-            "password": "danny:0FQBgB9JnEU5Zy2dJKZgbQ==",
+            "password": "b6ZyvbUKdZhio6pk9GxozQ==",
             "tls": {
                 "enabled": true,
                 "server_name": "zonewestclub.ddns.net",
@@ -80,39 +80,7 @@
             }
         },
         {
-            "tag": "二號技師（龍根）🍆",
-            "type": "hysteria2",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 8443,
-            "password": "friend:YJxOE0fJd/gMN4E0oRTkFQ==",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "insecure": false
-            }
-        },
-        {
-            "tag": "三號技師（松西）👅",
-            "type": "shadowsocks",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 2300,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WzZOsxiuj8aREY4IEFRb8A==",
-            "plugin": "v2ray-plugin",
-            "plugin_opts": "mode=websocket;"
-        },
-        {
-            "tag": "四號技師（洗面）💦",
-            "type": "shadowsocks",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 2301,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WzZOsxiuj8aREY4IEFRb8A==",
-            "plugin": "v2ray-plugin",
-            "plugin_opts": "mode=websocket;"
-        },
-        {
-            "tag": "五號技師（收音）📻",
+            "tag": "二號技師（松西）👅",
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
@@ -137,21 +105,15 @@
             "type": "urltest",
             "outbounds": [
                 "一號技師（鹹姨）🫦",
-                "二號技師（龍根）🍆",
-                "三號技師（松西）👅",
-                "四號技師（洗面）💦",
-                "五號技師（收音）📻"
+                "二號技師（松西）👅"
             ]
         },
         {
             "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
             "type": "selector",
             "outbounds": [
-                "五號技師（收音）📻",
                 "一號技師（鹹姨）🫦",
-                "二號技師（龍根）🍆",
-                "三號技師（松西）👅",
-                "四號技師（洗面）💦",
+                "二號技師（松西）👅",
                 "自動選擇技師"
             ]
         },
