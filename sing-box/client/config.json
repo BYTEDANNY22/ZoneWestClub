@@ -104,6 +104,16 @@
             }
         },
         {
+          "type": "hysteria2",
+          "server": "zonewestclub.ddns.net",
+          "server_port": 7443,
+          "password": "b6ZyvbUKdZhio6pk9GxozQ==",
+          "tls": {
+            "enabled": true,
+            "server_name": "zonewestclub.ddns.net"
+          }
+        },
+        {
             "tag": "自動選擇技師",
             "type": "urltest",
             "outbounds": [
