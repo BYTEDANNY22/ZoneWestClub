@@ -12,6 +12,25 @@
     },
     "inbounds": [
         {
+            "type": "hysteria2",
+            "listen": "::",
+            "listen_port": 443,
+            "users": [
+                {
+                    "name": "danny",
+                    "password": "b6ZyvbUKdZhio6pk9GxozQ=="
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "alpn": [
+                    "h3"
+                ],
+                "certificate_path": "/etc/sing-box/server.crt",
+                "key_path": "/etc/sing-box/server.key"
+            }
+        },
+        {
             "type": "vless",
             "tag": "vless-in",
             "listen": "::",
