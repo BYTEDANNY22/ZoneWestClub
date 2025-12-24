@@ -26,8 +26,13 @@
                 "alpn": [
                     "h3"
                 ],
-                "certificate_path": "/etc/sing-box/server.crt",
-                "key_path": "/etc/sing-box/server.key"
+                "acme": {
+                    "domain": [
+                        "zonewestclub.ddns.net"
+                    ],
+                    "email": "leungyatfung66@gmail.com",
+                    "provider": "letsencrypt"
+                }
             }
         },
         {
@@ -73,8 +78,13 @@
                 "alpn": [
                     "h3"
                 ],
-                "certificate_path": "/etc/sing-box/server.crt",
-                "key_path": "/etc/sing-box/server.key"
+                "acme": {
+                    "domain": [
+                        "zonewestclub.ddns.net"
+                    ],
+                    "email": "leungyatfung66@gmail.com",
+                    "provider": "letsencrypt"
+                }
             }
         }
     ],
