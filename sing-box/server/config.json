@@ -76,22 +76,6 @@
                 "certificate_path": "/etc/sing-box/server.crt",
                 "key_path": "/etc/sing-box/server.key"
             }
-        },
-        {
-            "type": "naive",
-            "listen": "::",
-            "listen_port": 6443,
-            "users": [
-                {
-                    "username": "danny",
-                    "password": "danny"
-                }
-            ],
-            "tls": {
-                "enabled": true,
-                "certificate_path": "/etc/sing-box/server.crt",
-                "key_path": "/etc/sing-box/server.key"
-            }
         }
     ],
     "outbounds": [
