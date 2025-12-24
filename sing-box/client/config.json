@@ -103,6 +103,21 @@
             }
         },
         {
+            "type": "tuic",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 7443,
+            "uuid": "9e181be6-d65d-43e4-b3f6-f8deb8dfb1ba",
+            "password": "HelloWorld",
+            "congestion_control": "bbr",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
             "tag": "自動選擇技師",
             "type": "urltest",
             "outbounds": [
