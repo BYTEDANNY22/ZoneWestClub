@@ -127,7 +127,7 @@
               "password": "danny",
               "tls": {
                 "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
+                "server_name": "zonewestclub.ddns.net"
             }
         },
         {
