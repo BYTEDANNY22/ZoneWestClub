@@ -56,6 +56,26 @@
                     ]
                 }
             }
+        },
+        {
+            "type": "tuic",
+            "listen": "::",
+            "listen_port": 7443,
+            "users": [
+                {
+                    "uuid": "9e181be6-d65d-43e4-b3f6-f8deb8dfb1ba",
+                    "password": "HelloWorld"
+                }
+            ],
+            "congestion_control": "bbr",
+            "tls": {
+                "enabled": true,
+                "alpn": [
+                    "h3"
+                ],
+                "certificate_path": "/etc/sing-box/server.crt",
+                "key_path": "/etc/sing-box/server.key"
+            }
         }
     ],
     "outbounds": [
