@@ -75,7 +75,7 @@
             "server_ports": [
                 "5000:6000"
             ],
-            "password": "b6ZyvbUKdZhio6pk9GxozQ==",
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
             "tls": {
                 "enabled": true,
                 "server_name": "zonewestclub.ddns.net"
@@ -86,7 +86,7 @@
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 8443,
-            "uuid": "e2c93bba-3074-43e6-b149-26247c3a953a",
+            "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
@@ -97,8 +97,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Qv5YO0Pmfu2TSGe9Zfkx8tKMFsGMLMUCmtrSyfUGVxA",
-                    "short_id": "1db4289ffc8e0abd"
+                    "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
+                    "short_id": "739b01531e5bc0d7"
                 }
             }
         },
@@ -107,8 +107,8 @@
             "type": "tuic",
             "server": "zonewestclub.ddns.net",
             "server_port": 7443,
-            "uuid": "9e181be6-d65d-43e4-b3f6-f8deb8dfb1ba",
-            "password": "HelloWorld",
+            "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
+            "password": "KissMyAss",
             "congestion_control": "bbr",
             "tls": {
                 "enabled": true,
