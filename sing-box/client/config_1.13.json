@@ -26,10 +26,6 @@
         ],
         "rules": [
             {
-                "outbound": "any",
-                "server": "dns_direct"
-            },
-            {
                 "clash_mode": "Direct",
                 "server": "dns_direct"
             },
