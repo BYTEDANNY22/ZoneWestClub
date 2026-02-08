@@ -15,15 +15,15 @@
         "servers": [
             {
                 "tag": "dns_proxy",
-                "address": "tls://8.8.8.8",
-                "address_strategy": "ipv4_only",
+                "type": "tls",
+                "server": "8.8.8.8",
                 "strategy": "ipv4_only",
                 "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
-                "address": "223.5.5.5",
-                "address_strategy": "ipv4_only",
+                "type": "udp",
+                "server": "223.5.5.5",
                 "strategy": "ipv4_only",
                 "detour": "直連"
             }
