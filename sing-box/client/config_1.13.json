@@ -15,13 +15,39 @@
         "servers": [
             {
                 "tag": "dns_proxy",
-                "type": "tls",
-                "server": "8.8.8.8"
+                "address": "tls://8.8.8.8",
+                "address_strategy": "ipv4_only",
+                "strategy": "ipv4_only",
+                "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
-                "type": "udp",
-                "server": "223.5.5.5"
+                "address": "223.5.5.5",
+                "address_strategy": "ipv4_only",
+                "strategy": "ipv4_only",
+                "detour": "直連"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": "any",
+                "server": "dns_direct"
+            },
+            {
+                "clash_mode": "Direct",
+                "server": "dns_direct"
+            },
+            {
+                "clash_mode": "Global",
+                "server": "dns_proxy"
+            },
+            {
+                "rule_set": "geosite-cn",
+                "server": "dns_direct"
+            },
+            {
+                "rule_set": "geosite-geolocation-!cn",
+                "server": "dns_proxy"
             }
         ],
         "strategy": "ipv4_only",
@@ -37,7 +63,7 @@
     ],
     "outbounds": [
         {
-            "tag": "一號技師（鹹姨）🫦","domain_resolver": "local",
+            "tag": "一號技師（鹹姨）🫦",
             "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
             "server_port": 443,
@@ -51,7 +77,7 @@
             }
         },
         {
-            "tag": "二號技師（松西）👅","domain_resolver": "local",
+            "tag": "二號技師（松西）👅",
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 8443,
@@ -72,7 +98,7 @@
             }
         },
         {
-            "tag": "三號技師（龍根）🍆","domain_resolver": "local",
+            "tag": "三號技師（龍根）🍆",
             "type": "tuic",
             "server": "zonewestclub.ddns.net",
             "server_port": 7443,
@@ -122,7 +148,6 @@
     ],
     "route": {
         "auto_detect_interface": true,
-        "default_domain_resolver": "dns_proxy",
         "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
         "rules": [
             {
