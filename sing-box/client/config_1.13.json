@@ -1,0 +1,208 @@
+{
+    "log": {
+        "level": "warn",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "external_ui_download_detour": "下載設定出口",
+            "default_mode": "Bypass China"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "tag": "dns_proxy",
+                "address": "tls://8.8.8.8",
+                "address_strategy": "ipv4_only",
+                "strategy": "ipv4_only",
+                "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
+            },
+            {
+                "tag": "dns_direct",
+                "address": "223.5.5.5",
+                "address_strategy": "ipv4_only",
+                "strategy": "ipv4_only",
+                "detour": "直連"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": "any",
+                "server": "dns_direct"
+            },
+            {
+                "clash_mode": "Direct",
+                "server": "dns_direct"
+            },
+            {
+                "clash_mode": "Global",
+                "server": "dns_proxy"
+            },
+            {
+                "rule_set": "geosite-cn",
+                "server": "dns_direct"
+            },
+            {
+                "rule_set": "geosite-geolocation-!cn",
+                "server": "dns_proxy"
+            }
+        ],
+        "strategy": "ipv4_only",
+        "final": "dns_proxy"
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "address": "172.19.0.1/30",
+            "auto_route": true,
+            "strict_route": true
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "一號技師（鹹姨）🫦",
+            "type": "hysteria2",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 443,
+            "server_ports": [
+                "5000:6000"
+            ],
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net"
+            }
+        },
+        {
+            "tag": "二號技師（松西）👅",
+            "type": "vless",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 8443,
+            "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
+                    "short_id": "739b01531e5bc0d7"
+                }
+            }
+        },
+        {
+            "tag": "三號技師（龍根）🍆",
+            "type": "tuic",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 7443,
+            "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
+            "password": "KissMyAss",
+            "congestion_control": "bbr",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "自動選擇技師",
+            "type": "urltest",
+            "outbounds": [
+                "一號技師（鹹姨）🫦",
+                "二號技師（松西）👅",
+                "三號技師（龍根）🍆"
+            ]
+        },
+        {
+            "tag": "西賤專享（內地叫雞專線） v1.4.1 ♋",
+            "type": "selector",
+            "outbounds": [
+                "自動選擇技師",
+                "一號技師（鹹姨）🫦",
+                "二號技師（松西）👅",
+                "三號技師（龍根）🍆"
+            ]
+        },
+        {
+            "tag": "下載設定出口",
+            "type": "selector",
+            "outbounds": [
+                "一號技師（鹹姨）🫦",
+                "二號技師（松西）👅",
+                "三號技師（龍根）🍆"
+            ]
+        },
+        {
+            "tag": "直連",
+            "type": "direct"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
+        "rules": [
+            {
+                "action": "sniff"
+            },
+            {
+                "protocol": "dns",
+                "action": "hijack-dns"
+            },
+            {
+                "clash_mode": "Direct",
+                "outbound": "直連"
+            },
+            {
+                "clash_mode": "Global",
+                "outbound": "西賤專享（內地叫雞專線） v1.4.1 ♋"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "西賤專享（內地叫雞專線） v1.4.1 ♋"
+            },
+            {
+                "rule_set": [
+                    "geosite-cn",
+                    "geoip-cn"
+                ],
+                "outbound": "直連"
+            },
+            {
+                "rule_set": "geosite-geolocation-!cn",
+                "outbound": "西賤專享（內地叫雞專線） v1.4.1 ♋"
+            }
+        ],
+        "rule_set": [
+            {
+                "tag": "geosite-geolocation-!cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
+                "download_detour": "下載設定出口"
+            },
+            {
+                "tag": "geoip-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
+                "download_detour": "下載設定出口"
+            },
+            {
+                "tag": "geosite-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
+                "download_detour": "下載設定出口"
+            }
+        ]
+    }
+}
