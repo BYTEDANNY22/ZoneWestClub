@@ -17,14 +17,12 @@
                 "tag": "dns_proxy",
                 "type": "tls",
                 "server": "8.8.8.8",
-                "strategy": "ipv4_only",
                 "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
                 "type": "udp",
                 "server": "223.5.5.5",
-                "strategy": "ipv4_only",
                 "detour": "直連"
             }
         ],
