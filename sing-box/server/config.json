@@ -36,32 +36,6 @@
             }
         },
         {
-            "type": "vless",
-            "listen": "::",
-            "listen_port": 8443,
-            "users": [
-                {
-                    "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
-                    "flow": "xtls-rprx-vision"
-                }
-            ],
-            "tls": {
-                "enabled": true,
-                "server_name": "statici.icloud.com",
-                "reality": {
-                    "enabled": true,
-                    "handshake": {
-                        "server": "statici.icloud.com",
-                        "server_port": 443
-                    },
-                    "private_key": "-KzWDMG2wawaECnvfQxOFpoG3UUQFdWbxyPioJFS5lo",
-                    "short_id": [
-                        "739b01531e5bc0d7"
-                    ]
-                }
-            }
-        },
-        {
             "type": "naive",
             "listen": "::",
             "listen_port": 6443,
@@ -107,6 +81,32 @@
                     ],
                     "email": "leungyatfung66@gmail.com",
                     "provider": "letsencrypt"
+                }
+            }
+        },
+        {
+            "type": "vless",
+            "listen": "::",
+            "listen_port": 8443,
+            "users": [
+                {
+                    "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
+                    "flow": "xtls-rprx-vision"
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "reality": {
+                    "enabled": true,
+                    "handshake": {
+                        "server": "statici.icloud.com",
+                        "server_port": 443
+                    },
+                    "private_key": "-KzWDMG2wawaECnvfQxOFpoG3UUQFdWbxyPioJFS5lo",
+                    "short_id": [
+                        "739b01531e5bc0d7"
+                    ]
                 }
             }
         }
