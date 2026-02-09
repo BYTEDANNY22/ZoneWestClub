@@ -8,7 +8,7 @@
             "external_controller": "127.0.0.1:9090",
             "external_ui": "ui",
             "external_ui_download_detour": "下載設定出口",
-            "default_mode": "Bypass China"
+            "default_mode": "Rule"
         }
     },
     "dns": {
