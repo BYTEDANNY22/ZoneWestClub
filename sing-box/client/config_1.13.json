@@ -114,7 +114,10 @@
             "password": "danny",
             "tls": {
                 "enabled": true,
-                "server_name": "zonewestclub.ddns.net"
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
             }
         },
         {
@@ -156,7 +159,10 @@
     "route": {
         "auto_detect_interface": true,
         "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
-        "default_domain_resolver": "dns_proxy",
+        "default_domain_resolver": {
+            "server": "dns_proxy",
+            "strategy": "ipv4_only"
+        },
         "rules": [
             {
                 "action": "sniff"
