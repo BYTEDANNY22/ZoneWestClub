@@ -114,10 +114,7 @@
             "password": "danny",
             "tls": {
                 "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "alpn": [
-                    "h3"
-                ]
+                "server_name": "zonewestclub.ddns.net"
             }
         },
         {
