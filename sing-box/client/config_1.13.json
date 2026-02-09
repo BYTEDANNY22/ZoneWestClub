@@ -112,13 +112,11 @@
             "server_port": 6443,
             "username": "danny",
             "password": "danny",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "alpn": [
-                    "h3"
-                ]
-            }
+      "tls": {
+        "enabled": true,
+        "server_name": "zonewestclub.ddns.net",
+        "alpn": ["h2", "http/1.1"]
+      }
         },
         {
             "tag": "自動選擇技師",
