@@ -141,6 +141,7 @@
     "route": {
         "auto_detect_interface": true,
         "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
+        "default_domain_resolver": "dns_proxy",
         "rules": [
             {
                 "action": "sniff"
