@@ -16,7 +16,7 @@
             {
                 "tag": "dns_proxy",
                 "type": "tls",
-                "server": "8.8.8.8"
+                "server": "1.1.1.1"
             },
             {
                 "tag": "dns_direct",
