@@ -160,6 +160,11 @@
                 "action": "hijack-dns"
             },
             {
+                "protocol": "icmp",
+                "action": "reject",
+                "method": "reply"
+            },
+            {
                 "clash_mode": "Direct",
                 "outbound": "直連"
             },
