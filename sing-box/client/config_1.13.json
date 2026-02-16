@@ -159,19 +159,19 @@
                 "type": "logical",
                 "mode": "or",
                 "rules": [
-                  {
-                    "protocol": "dns"
-                  },
-                  {
-                    "port": 53
-                  }
+                    {
+                        "protocol": "dns"
+                    },
+                    {
+                        "port": 53
+                    }
                 ],
                 "action": "hijack-dns"
             },
             {
-                  "network": "icmp",
-                  "action": "reject",
-                  "method": "reply"
+                "network": "icmp",
+                "action": "reject",
+                "method": "reply"
             },
             {
                 "clash_mode": "Direct",
