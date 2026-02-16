@@ -156,7 +156,16 @@
                 "action": "sniff"
             },
             {
-                "protocol": "dns",
+                "type": "logical",
+                "mode": "or",
+                "rules": [
+                  {
+                    "protocol": "dns"
+                  },
+                  {
+                    "port": 53
+                  }
+                ],
                 "action": "hijack-dns"
             },
             {
