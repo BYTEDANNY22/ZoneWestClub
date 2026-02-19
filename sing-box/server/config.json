@@ -36,27 +36,6 @@
             }
         },
         {
-            "type": "naive",
-            "listen": "::",
-            "listen_port": 6443,
-            "users": [
-                {
-                    "username": "danny",
-                    "password": "danny"
-                }
-            ],
-            "tls": {
-                "enabled": true,
-                "acme": {
-                    "domain": [
-                        "zonewestclub.ddns.net"
-                    ],
-                    "email": "leungyatfung66@gmail.com",
-                    "provider": "letsencrypt"
-                }
-            }
-        },
-        {
             "type": "tuic",
             "listen": "::",
             "listen_port": 7443,
