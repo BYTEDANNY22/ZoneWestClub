@@ -60,6 +60,32 @@
             }
         },
         {
+            "type": "anytls",
+            "listen": "::",
+            "listen_port": 6444,
+            "users": [
+                {
+                    "name": "danny",
+                    "password": "IObErG6R6RMZ/3HlOVHsoA=="
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "reality": {
+                    "enabled": true,
+                    "handshake": {
+                        "server": "statici.icloud.com",
+                        "server_port": 443
+                    },
+                    "private_key": "-KzWDMG2wawaECnvfQxOFpoG3UUQFdWbxyPioJFS5lo",
+                    "short_id": [
+                        "739b01531e5bc0d7"
+                    ]
+                }
+            }
+        },
+        {
             "type": "tuic",
             "listen": "::",
             "listen_port": 7443,
