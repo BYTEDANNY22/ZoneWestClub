@@ -63,7 +63,7 @@
         {
             "type": "anytls",
             "listen": "::",
-            "listen_port": 6443,
+            "listen_port": 8443,
             "users": [
                 {
                     "name": "danny",
@@ -87,7 +87,7 @@
         {
             "type": "anytls",
             "listen": "::",
-            "listen_port": 6444,
+            "listen_port": 7443,
             "users": [
                 {
                     "name": "danny",
@@ -113,7 +113,7 @@
         {
             "type": "vless",
             "listen": "::",
-            "listen_port": 8443,
+            "listen_port": 6443,
             "users": [
                 {
                     "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
