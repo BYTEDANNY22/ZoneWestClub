@@ -69,7 +69,10 @@
             "password": "IObErG6R6RMZ/3HlOVHsoA==",
             "tls": {
                 "enabled": true,
-                "server_name": "zonewestclub.ddns.net"
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
             }
         },
         {
