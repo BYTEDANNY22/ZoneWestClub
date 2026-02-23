@@ -77,6 +77,22 @@
         },
         {
             "tag": "二號技師（龍根）🍆",
+            "type": "tuic",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 7443,
+            "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
+            "password": "KissMyAss",
+            "congestion_control": "bbr",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "三號技師（松西）👅",
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 8443,
@@ -94,22 +110,6 @@
                     "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
                     "short_id": "739b01531e5bc0d7"
                 }
-            }
-        },
-        {
-            "tag": "三號技師（松西）👅",
-            "type": "tuic",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 7443,
-            "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
-            "password": "KissMyAss",
-            "congestion_control": "bbr",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "alpn": [
-                    "h3"
-                ]
             }
         },
         {
