@@ -131,7 +131,7 @@
             "type": "anytls",
             "server": "zonewestclub.ddns.net",
             "server_port": 6444,
-            "password": "123456",
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
             "tls": {
                 "enabled": true,
                 "server_name": "statici.icloud.com",
