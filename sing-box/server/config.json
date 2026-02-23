@@ -14,7 +14,7 @@
         {
             "type": "hysteria2",
             "listen": "::",
-            "listen_port": 443,
+            "listen_port": 8443,
             "users": [
                 {
                     "name": "danny",
@@ -38,7 +38,7 @@
         {
             "type": "tuic",
             "listen": "::",
-            "listen_port": 7443,
+            "listen_port": 8443,
             "users": [
                 {
                     "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
