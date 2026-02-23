@@ -62,7 +62,7 @@
             "tag": "一號技師（鹹姨）🫦",
             "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
-            "server_port": 443,
+            "server_port": 8443,
             "server_ports": [
                 "5000:6000"
             ],
@@ -93,11 +93,24 @@
         },
         {
             "tag": "三號技師（松西）👅",
-            "type": "vless",
+            "type": "anytls",
             "server": "zonewestclub.ddns.net",
-            "server_port": 8443,
-            "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
-            "flow": "xtls-rprx-vision",
+            "server_port": 6443,
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "四號技師（洗面）💦",
+            "type": "anytls",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 6444,
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
             "tls": {
                 "enabled": true,
                 "server_name": "statici.icloud.com",
@@ -113,25 +126,12 @@
             }
         },
         {
-            "tag": "四號技師（洗面）💦",
-            "type": "anytls",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 6443,
-            "password": "IObErG6R6RMZ/3HlOVHsoA==",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net",
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
-        {
             "tag": "五號技師（收音）📻",
-            "type": "anytls",
+            "type": "vless",
             "server": "zonewestclub.ddns.net",
-            "server_port": 6444,
-            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "server_port": 8443,
+            "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
+            "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
                 "server_name": "statici.icloud.com",
@@ -155,7 +155,6 @@
                 "三號技師（松西）👅",
                 "四號技師（洗面）💦",
                 "五號技師（收音）📻"
-                
             ]
         },
         {
