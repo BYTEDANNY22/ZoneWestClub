@@ -36,6 +36,31 @@
             }
         },
         {
+            "type": "tuic",
+            "listen": "::",
+            "listen_port": 7443,
+            "users": [
+                {
+                    "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
+                    "password": "KissMyAss"
+                }
+            ],
+            "congestion_control": "bbr",
+            "tls": {
+                "enabled": true,
+                "alpn": [
+                    "h3"
+                ],
+                "acme": {
+                    "domain": [
+                        "zonewestclub.ddns.net"
+                    ],
+                    "email": "leungyatfung66@gmail.com",
+                    "provider": "letsencrypt"
+                }
+            }
+        },
+        {
             "type": "anytls",
             "listen": "::",
             "listen_port": 6443,
@@ -82,31 +107,6 @@
                     "short_id": [
                         "739b01531e5bc0d7"
                     ]
-                }
-            }
-        },
-        {
-            "type": "tuic",
-            "listen": "::",
-            "listen_port": 7443,
-            "users": [
-                {
-                    "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
-                    "password": "KissMyAss"
-                }
-            ],
-            "congestion_control": "bbr",
-            "tls": {
-                "enabled": true,
-                "alpn": [
-                    "h3"
-                ],
-                "acme": {
-                    "domain": [
-                        "zonewestclub.ddns.net"
-                    ],
-                    "email": "leungyatfung66@gmail.com",
-                    "provider": "letsencrypt"
                 }
             }
         },
