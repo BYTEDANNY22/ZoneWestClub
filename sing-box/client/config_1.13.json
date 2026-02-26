@@ -152,7 +152,7 @@
             "server": "zonewestclub.ddns.net",
             "server_port": 8444,
             "server_ports": [
-                "5000:6000"
+                "9000:10000"
             ],
             "password": "IObErG6R6RMZ/3HlOVHsoA==",
             "tls": {
