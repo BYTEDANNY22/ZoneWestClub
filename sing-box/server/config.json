@@ -163,6 +163,136 @@
                     ]
                 }
             }
+        },
+        {
+            "tag": "JP_hy2",
+            "type": "hysteria2",
+            "listen": "::",
+            "listen_port": 8444,
+            "users": [
+                {
+                    "name": "danny",
+                    "password": "IObErG6R6RMZ/3HlOVHsoA=="
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "alpn": [
+                    "h3"
+                ],
+                "acme": {
+                    "domain": [
+                        "zonewestclub.ddns.net"
+                    ],
+                    "email": "leungyatfung66@gmail.com",
+                    "provider": "letsencrypt"
+                }
+            }
+        },
+        {
+            "tag": "JP_tuic",
+            "type": "tuic",
+            "listen": "::",
+            "listen_port": 7444,
+            "users": [
+                {
+                    "uuid": "ed6e5ce6-99bb-4bc2-b5a1-3f633b52745c",
+                    "password": "KissMyAss"
+                }
+            ],
+            "congestion_control": "bbr",
+            "tls": {
+                "enabled": true,
+                "alpn": [
+                    "h3"
+                ],
+                "acme": {
+                    "domain": [
+                        "zonewestclub.ddns.net"
+                    ],
+                    "email": "leungyatfung66@gmail.com",
+                    "provider": "letsencrypt"
+                }
+            }
+        },
+        {
+            "tag": "JP_anytls",
+            "type": "anytls",
+            "listen": "::",
+            "listen_port": 8444,
+            "users": [
+                {
+                    "name": "danny",
+                    "password": "IObErG6R6RMZ/3HlOVHsoA=="
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "alpn": [
+                    "h3"
+                ],
+                "acme": {
+                    "domain": [
+                        "zonewestclub.ddns.net"
+                    ],
+                    "email": "leungyatfung66@gmail.com",
+                    "provider": "letsencrypt"
+                }
+            }
+        },
+        {
+            "tag": "JP_anyreality",
+            "type": "anytls",
+            "listen": "::",
+            "listen_port": 7444,
+            "users": [
+                {
+                    "name": "danny",
+                    "password": "IObErG6R6RMZ/3HlOVHsoA=="
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "reality": {
+                    "enabled": true,
+                    "handshake": {
+                        "server": "statici.icloud.com",
+                        "server_port": 443
+                    },
+                    "private_key": "-KzWDMG2wawaECnvfQxOFpoG3UUQFdWbxyPioJFS5lo",
+                    "short_id": [
+                        "739b01531e5bc0d7"
+                    ]
+                }
+            }
+        },
+        {
+            "tag": "JP_vless_vision_reality",
+            "type": "vless",
+            "listen": "::",
+            "listen_port": 6444,
+            "users": [
+                {
+                    "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
+                    "flow": "xtls-rprx-vision"
+                }
+            ],
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "reality": {
+                    "enabled": true,
+                    "handshake": {
+                        "server": "statici.icloud.com",
+                        "server_port": 443
+                    },
+                    "private_key": "-KzWDMG2wawaECnvfQxOFpoG3UUQFdWbxyPioJFS5lo",
+                    "short_id": [
+                        "739b01531e5bc0d7"
+                    ]
+                }
+            }
         }
     ],
     "outbounds": [
@@ -182,7 +312,23 @@
                 "action": "hijack-dns"
             },
             {
-                "inbound": "HK_vless_vision_reality",
+                "inbound": "JP_hy2",
+                "outbound": "wg-japan"
+            },
+            {
+                "inbound": "JP_tuic",
+                "outbound": "wg-japan"
+            },
+            {
+                "inbound": "JP_anytls",
+                "outbound": "wg-japan"
+            },
+            {
+                "inbound": "JP_anyreality",
+                "outbound": "wg-japan"
+            },
+            {
+                "inbound": "JP_vless_vision_reality",
                 "outbound": "wg-japan"
             }
         ]
