@@ -2,6 +2,29 @@
     "log": {
         "level": "info"
     },
+    "endpoints": [
+        {
+            "type": "wireguard",
+            "tag": "wg-japan",
+            "system": false,
+            "address": [
+                "10.2.0.2/32"
+            ],
+            "private_key": "MBwJAk4F3FPBs0kCydemR/9qRBvxswvzh5owZe6Nt3w=",
+            "peers": [
+                {
+                    "address": "103.125.235.18",
+                    "port": 51820,
+                    "public_key": "agoivyLoPqor8MxA/s6UWJSMcA2pMl+ajO3vy/q3oWQ=",
+                    "allowed_ips": [
+                        "0.0.0.0/0",
+                        "::/0"
+                    ],
+                    "persistent_keepalive_interval": 25
+                }
+            ]
+        }
+    ],
     "dns": {
         "servers": [
             {
@@ -143,6 +166,7 @@
         }
     ],
     "route": {
+        "final": "wg-japan",
         "rules": [
             {
                 "action": "sniff"
