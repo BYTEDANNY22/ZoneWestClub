@@ -10,12 +10,12 @@
             "address": [
                 "10.2.0.2/32"
             ],
-            "private_key": "MBwJAk4F3FPBs0kCydemR/9qRBvxswvzh5owZe6Nt3w=",
+            "private_key": "qAjCJzZWrDW8n9fHgPCsuA0pYA+MQDMdF21DeKVuNk4=",
             "peers": [
                 {
-                    "address": "103.125.235.18",
+                    "address": "149.88.23.117",
                     "port": 51820,
-                    "public_key": "agoivyLoPqor8MxA/s6UWJSMcA2pMl+ajO3vy/q3oWQ=",
+                    "public_key": "7T/ncvn7/CYVSwHPpVJenUJKGEwIE6omzLZyNJ8mMEA=",
                     "allowed_ips": [
                         "0.0.0.0/0",
                         "::/0"
