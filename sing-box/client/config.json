@@ -8,7 +8,7 @@
             "external_controller": "127.0.0.1:9090",
             "external_ui": "ui",
             "external_ui_download_detour": "下載設定出口",
-            "default_mode": "Bypass China"
+            "default_mode": "Rule"
         }
     },
     "dns": {
@@ -77,10 +77,45 @@
             }
         },
         {
+            "tag": "🇯🇵一號技師（鹹姨）🫦",
+            "type": "hysteria2",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 8444,
+            "server_ports": [
+                "9000:10000"
+            ],
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net"
+            }
+        },
+        {
             "tag": "🇭🇰二號技師（松西）👅",
             "type": "vless",
             "server": "zonewestclub.ddns.net",
             "server_port": 6443,
+            "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
+            "flow": "xtls-rprx-vision",
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
+                    "short_id": "739b01531e5bc0d7"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵二號技師（松西）👅",
+            "type": "vless",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 6444,
             "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
             "flow": "xtls-rprx-vision",
             "tls": {
@@ -111,41 +146,6 @@
                 "alpn": [
                     "h3"
                 ]
-            }
-        },
-        {
-            "tag": "🇯🇵一號技師（鹹姨）🫦",
-            "type": "hysteria2",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 8444,
-            "server_ports": [
-                "9000:10000"
-            ],
-            "password": "IObErG6R6RMZ/3HlOVHsoA==",
-            "tls": {
-                "enabled": true,
-                "server_name": "zonewestclub.ddns.net"
-            }
-        },
-        {
-            "tag": "🇯🇵二號技師（松西）👅",
-            "type": "vless",
-            "server": "zonewestclub.ddns.net",
-            "server_port": 6444,
-            "uuid": "4a7fb723-43ea-44d6-b82c-31bc48e19acd",
-            "flow": "xtls-rprx-vision",
-            "tls": {
-                "enabled": true,
-                "server_name": "statici.icloud.com",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
-                    "short_id": "739b01531e5bc0d7"
-                }
             }
         },
         {
