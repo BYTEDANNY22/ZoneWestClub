@@ -298,7 +298,8 @@
     "outbounds": [
         {
             "tag": "direct",
-            "type": "direct"
+            "type": "direct",
+            "bind_interface": "CloudflareWARP"
         }
     ],
     "route": {
