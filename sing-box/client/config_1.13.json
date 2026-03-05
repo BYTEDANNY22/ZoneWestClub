@@ -321,11 +321,6 @@
                 "action": "hijack-dns"
             },
             {
-                "network": "icmp",
-                "action": "reject",
-                "method": "reply"
-            },
-            {
                 "clash_mode": "Direct",
                 "outbound": "直連"
             },
