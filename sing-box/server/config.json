@@ -7,10 +7,8 @@
             "type": "wireguard",
             "tag": "wg-japan",
             "system": false,
-            "address": [
-                "10.2.0.2/32"
-            ],
-            "private_key": "qAjCJzZWrDW8n9fHgPCsuA0pYA+MQDMdF21DeKVuNk4=",
+            "address": "10.2.0.2/32",
+            "private_key": "CKK0WkHApGV0LNvJKjx0kpXm61/8cLafnMIN0SVpYVg=",
             "peers": [
                 {
                     "address": "149.88.23.117",
