@@ -8,7 +8,7 @@
             "tag": "wg-japan",
             "system": false,
             "address": "10.2.0.2/32",
-            "private_key": "CKK0WkHApGV0LNvJKjx0kpXm61/8cLafnMIN0SVpYVg=",
+            "private_key": "mDAO6IQv3uWCBkP5QwbCpi7VxhxSX38NFw4xkRAM53M=",
             "peers": [
                 {
                     "address": "149.88.23.117",
