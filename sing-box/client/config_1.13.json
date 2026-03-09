@@ -308,6 +308,11 @@
                 "action": "sniff"
             },
             {
+                "network": "icmp",
+                "action": "reject",
+                "method": "reply"
+            },
+            {
                 "protocol": "dns",
                 "action": "hijack-dns"
             },
