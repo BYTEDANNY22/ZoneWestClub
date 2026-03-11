@@ -92,6 +92,40 @@
             }
         },
         {
+            "tag": "🇭🇰三號技師（松西）👅",
+            "type": "anytls",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 8443,
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇭🇰四號技師（洗面）💦",
+            "type": "anytls",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 7443,
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
+                    "short_id": "739b01531e5bc0d7"
+                }
+            }
+        },
+        {
             "tag": "🇭🇰五號技師（收音）📻",
             "type": "vless",
             "server": "zonewestclub.ddns.net",
@@ -146,6 +180,40 @@
             }
         },
         {
+            "tag": "🇯🇵三號技師（松西）👅",
+            "type": "anytls",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 8444,
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "zonewestclub.ddns.net",
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇯🇵四號技師（洗面）💦",
+            "type": "anytls",
+            "server": "zonewestclub.ddns.net",
+            "server_port": 7444,
+            "password": "IObErG6R6RMZ/3HlOVHsoA==",
+            "tls": {
+                "enabled": true,
+                "server_name": "statici.icloud.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D4rUPgmODeboNBshMJ16nQMT7Hq4KwIeZt5H2m5uBHc",
+                    "short_id": "739b01531e5bc0d7"
+                }
+            }
+        },
+        {
             "tag": "🇯🇵五號技師（收音）📻",
             "type": "vless",
             "server": "zonewestclub.ddns.net",
@@ -191,9 +259,13 @@
             "outbounds": [
                 "🇭🇰一號技師（鹹姨）🫦",
                 "🇭🇰二號技師（龍根）🍆",
+                "🇭🇰三號技師（松西）👅",
+                "🇭🇰四號技師（洗面）💦",
                 "🇭🇰五號技師（收音）📻",
                 "🇯🇵一號技師（鹹姨）🫦",
                 "🇯🇵二號技師（龍根）🍆",
+                "🇯🇵三號技師（松西）👅",
+                "🇯🇵四號技師（洗面）💦",
                 "🇯🇵五號技師（收音）📻"
             ]
         },
@@ -203,6 +275,8 @@
             "outbounds": [
                 "🇭🇰一號技師（鹹姨）🫦",
                 "🇭🇰二號技師（龍根）🍆",
+                "🇭🇰三號技師（松西）👅",
+                "🇭🇰四號技師（洗面）💦",
                 "🇭🇰五號技師（收音）📻"
             ]
         },
@@ -212,6 +286,8 @@
             "outbounds": [
                 "🇯🇵一號技師（鹹姨）🫦",
                 "🇯🇵二號技師（龍根）🍆",
+                "🇯🇵三號技師（松西）👅",
+                "🇯🇵四號技師（洗面）💦",
                 "🇯🇵五號技師（收音）📻"
             ]
         },
