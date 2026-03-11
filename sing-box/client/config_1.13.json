@@ -20,7 +20,8 @@
             {
                 "tag": "dns_proxy",
                 "type": "tls",
-                "server": "8.8.8.8"
+                "server": "8.8.8.8",
+                "detour": "下載設定出口"
             },
             {
                 "tag": "dns_direct",
@@ -300,7 +301,7 @@
         "auto_detect_interface": true,
         "final": "西賤專享（內地叫雞專線） v1.4.1 ♋",
         "default_domain_resolver": {
-            "server": "dns_proxy",
+            "server": "dns_direct",
             "strategy": "ipv4_only"
         },
         "rules": [
