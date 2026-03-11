@@ -20,7 +20,8 @@
             {
                 "tag": "dns_proxy",
                 "type": "tls",
-                "server": "8.8.8.8"
+                "server": "8.8.8.8",
+                "detour": "西賤專享（內地叫雞專線） v1.4.1 ♋"
             },
             {
                 "tag": "dns_direct",
