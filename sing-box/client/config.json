@@ -67,6 +67,10 @@
     ],
     "outbounds": [
         {
+            "tag": "直連",
+            "type": "direct"
+        },
+        {
             "tag": "🇭🇰一號技師（鹹姨）🫦",
             "type": "hysteria2",
             "server": "zonewestclub.ddns.net",
@@ -216,10 +220,6 @@
                 "🇯🇵二號技師（松西）👅",
                 "🇯🇵三號技師（龍根）🍆"
             ]
-        },
-        {
-            "tag": "直連",
-            "type": "direct"
         }
     ],
     "route": {
