@@ -11,7 +11,7 @@
         "clash_api": {
             "external_controller": "127.0.0.1:9090",
             "external_ui": "ui",
-            "external_ui_download_detour": "下載設定出口",
+            "external_ui_download_detour": "手動選擇技師",
             "default_mode": "Rule"
         }
     },
@@ -249,16 +249,6 @@
             ]
         },
         {
-            "tag": "下載設定出口",
-            "default": "手動選擇技師",
-            "type": "selector",
-            "outbounds": [
-                "🇭🇰自動選擇技師",
-                "🇯🇵自動選擇技師",
-                "手動選擇技師"
-            ]
-        },
-        {
             "tag": "手動選擇技師",
             "type": "selector",
             "outbounds": [
@@ -347,21 +337,21 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
-                "download_detour": "下載設定出口"
+                "download_detour": "手動選擇技師"
             },
             {
                 "tag": "geoip-cn",
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-                "download_detour": "下載設定出口"
+                "download_detour": "手動選擇技師"
             },
             {
                 "tag": "geosite-cn",
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs",
-                "download_detour": "下載設定出口"
+                "download_detour": "手動選擇技師"
             }
         ]
     }
